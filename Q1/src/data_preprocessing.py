@@ -124,15 +124,6 @@ def load_transform_dataset():
     print(X.columns)
 
     # Now,we will check for outliers, 
-
-    '''
-    Transformation for Skewed Variables: Variables like CRIM, ZN, LSTAT, DIS, and MEDV show significant skewness. Applying log or Box-Cox transformations to these variables may improve the performance of regression models.
-
-    Handling Multicollinearity: As discussed earlier with the heatmap, high correlations between features like RAD and TAX could cause multicollinearity, so you might consider dropping one of them or using techniques like Variance Inflation Factor (VIF) to assess multicollinearity.
-
-    Outlier Handling: The boxplot you created earlier shows the presence of outliers in MEDV, and possibly in other features as well. Handling outliers (e.g., capping, removing, or transforming them) might improve model performance.
-    '''
-
     # fig, ax = plt.subplots(2,6, figsize=(20,10))
     # ax = ax.flatten()
     # for index,col in enumerate(X.columns[1:]):
