@@ -1,0 +1,10 @@
+numpy 
+pandas
+seaborn
+matplotlib
+plotly
+fsspec
+nbformat
+statsmodels
+scikit-learn
+joblib
